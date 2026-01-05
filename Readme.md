@@ -19,7 +19,7 @@
 <a href="https://junit.org/junit5/"><img src="files/images/JUnit_5.png" width="100" height="50"  alt="JUnit 5"/></a>
 <a href="https://selenide.org/"><img src="files/images/selenide.jpeg" width="50" height="50"  alt="Selenide"/></a>  
 <a href="https://aerokube.com/selenoid/"><img src="files/images/selenoid.jpg" width="50" height="50"  alt="Selenoid"/></a>  
-<a href="ht[images](images)tps://github.com/allure-framework/allure2"><img src="files/images/Allure.png" width="50" height="50"  alt="Allure"/></a>  
+<a href="https://github.com/allure-framework/allure2"><img src="files/images/Allure.png" width="50" height="50"  alt="Allure"/></a>  
 <a href="https://www.jenkins.io/"><img src="files/images/jenkins.jpg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
