@@ -1,5 +1,6 @@
 package pages;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -17,6 +18,7 @@ public class DpdPageTest extends TestBase {
     ResultComponent resultComponent = new ResultComponent();
 
     @Test
+    @DisplayName("Тест для проверки строки поиска на сайте")
     void siteSearch() {
         step("Открываем главную страницу", () -> {
             dpdPage.openPage();
@@ -48,6 +50,7 @@ public class DpdPageTest extends TestBase {
     }
 
     @Test
+    @DisplayName("Тест поиска информации по посылке по трек-номеру")
     void SearchOrder() {
         step("Открываем главную страницу", () -> {
             dpdPage.openPage();
@@ -83,6 +86,7 @@ public class DpdPageTest extends TestBase {
     @MethodSource
     @ParameterizedTest()
     @Tag("SMOCK")
+    @DisplayName("Проверка основных элементов на главной странице")
     void siteShouldDisplayCorrectButtons(List<String> expectedButtons) {
 
         step("Открываем главную страницу", () -> {
@@ -95,6 +99,7 @@ public class DpdPageTest extends TestBase {
     }
 
     @Test
+    @DisplayName("Проверка кликабельности кнопки В другую страну")
     void NavigateThroughTheMenuItemsOfPopularProducts() {
         step("Открываем главную страницу", () -> {
             dpdPage.openPage();
@@ -119,6 +124,7 @@ public class DpdPageTest extends TestBase {
     }
 
     @Test
+    @DisplayName("Проверка наличия рекламного банера на странице")
     void AdvertisingBanner() {
         step("Открываем главную страницу", () -> {
             dpdPage.openPage();
